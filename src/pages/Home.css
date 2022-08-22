@@ -1,0 +1,88 @@
+.body {
+    background-color: #f0f4fa;
+    margin: 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+
+.left{
+    float:left;
+}
+.right{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+.Title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    color: #1F384D
+    
+}
+
+.Title::after{
+    content: "!";
+    color: #356285;
+}
+
+hr {
+    border-top: 5px solid rgb(34, 92, 200);
+    width: 9%;
+    margin-left: 0%;
+
+}
+
+.span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: #1F384D
+}
+
+.name{
+    font-size: 130%;
+    font-weight: bold;
+    color: #1F384D
+}
+
+
+.tamu{
+    font-weight: bold;
+    color: rgb(122, 0, 0)
+}
+
+.links{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: #1F384D
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: #1F384D
+
+}
+
+img{
+    border-radius: 50%;
+    border: 2px solid  #356285;
+
+}
+
+.navbar{
+    padding-bottom: 6%;
+}
+.navbaritem{
+    font-size: 160%;
+    font-weight: bold;
+    color: #1F384D
+}
+.navbarleft{float:left;}
+.navbarright{float:right;}
+.navbaritem:link { text-decoration: none; color: #1F384D; }
+
+.contactlink:link { text-decoration: none; color: #356285; }
+.contactlink:hover { text-decoration: underline; }
+
