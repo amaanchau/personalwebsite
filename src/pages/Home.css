@@ -7,10 +7,13 @@
 
 .left{
     float:left;
+    margin-right: 20%;
+    padding-left: 4%;
 }
 .right{
-    margin-left: 70%;
-    margin-top: 5%;
+    /* float: right; */
+    margin-left: 75%;
+    margin-bottom: 50%;
 }
 
 .Title {
@@ -56,6 +59,7 @@ hr {
     font-size: 100%;
     font-weight: bold;
     color: #1F384D
+    
 }
 
 p{
@@ -65,11 +69,47 @@ p{
 
 }
 
-img{
+.profpic{
     border-radius: 50%;
     border: 2px solid  #356285;
-
 }
+
+ul{
+    list-style: none;
+}
+
+.quicklinkheader{
+    font-size: 130%;
+    font-weight: bold;
+    color: #1F384D;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.quicklinklist{
+    margin-right: 1%;
+    display: inline;
+}
+
+.quicklinks{
+    background-color: #A4C2DB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: #1F384D;
+    border:1px solid #A4C2DB;
+    border-radius: 5px;
+    padding-bottom: 1%; 
+    padding-top: 1%; 
+    padding-right: 1%;     
+}
+
+.quicklinkpics{
+    width: 1.5%;
+    height: 1.5%;
+    margin-right: .5%;
+    margin-left: 1%;
+}
+
 
 .navbar{
     padding-bottom: 6%;
@@ -81,8 +121,11 @@ img{
 }
 .navbarleft{float:left;}
 .navbarright{float:right;}
+
 .navbaritem:link { text-decoration: none; color: #1F384D; }
+
+.quicklinks:link { text-decoration: none; color: #356285;}
+.quicklinks:hover { text-decoration: none; background-color: #447ca7b0; }
 
 .contactlink:link { text-decoration: none; color: #356285; }
 .contactlink:hover { text-decoration: underline; }
-

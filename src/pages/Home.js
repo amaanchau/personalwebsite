@@ -1,5 +1,8 @@
 import React from "react";
 import profpic from "../assets/profpic.jpg";
+import linkedinlogo from "../assets/linkedinlogo.png";
+import githublogo from "../assets/githublogo.png";
+import resumelogo from "../assets/resumelogo.png";
 import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -44,24 +47,59 @@ const Home = () => (
         </span>
         <br />
 
-        <p className="name">Quick Links:</p>
+        <p className="quicklinkheader">Quick Links:</p>
         <nav>
           <ul>
-            <li>
-              <a href="www.linkedin.com/in/amaan-chaudhry">Linkedin</a>
+            <li className="quicklinklist">
+              <a
+                target="_blank"
+                className="quicklinks"
+                href="https://www.linkedin.com/in/amaan-chaudhry"
+              >
+                <img
+                  className="quicklinkpics"
+                  src={linkedinlogo}
+                  alt="linkedin logo"
+                />
+                Linkedin
+              </a>
             </li>
-            <li>
-              <a href={resume}>Resume</a>
+            <li className="quicklinklist">
+              <a className="quicklinks" target="_blank" href={resume}>
+                <img
+                  className="quicklinkpics"
+                  src={resumelogo}
+                  alt="linkedin logo"
+                />
+                Resume
+              </a>
             </li>
-            <li>
-              <a href="https://github.com/amaanchau">Github</a>
+            <li className="quicklinklist">
+              <a
+                target="_blank"
+                className="quicklinks"
+                href="https://github.com/amaanchau"
+              >
+                <img
+                  className="quicklinkpics"
+                  src={githublogo}
+                  alt="linkedin logo"
+                />
+                Github
+              </a>
             </li>
           </ul>
         </nav>
       </div>
 
       <div className="right">
-        <img src={profpic} alt="Profile Picture" width="200" height="200" />
+        <img
+          className="profpic"
+          src={profpic}
+          alt="Profile Picture"
+          width="200"
+          height="200"
+        />
 
         <nav>
           <ul>
