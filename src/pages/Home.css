@@ -1,77 +1,142 @@
-.body {
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.body { 
     background-color: #f0f4fa;
     margin: 1%;
     padding: 1% 1% 1% 1%;
+    width : 96%;
+    overflow: hidden;
 }
 
 
 .left{
+    width: 60%;
     float:left;
-    margin-right: 20%;
-    padding-left: 4%;
+    padding-left: 5%;
+
 }
 .right{
-    /* float: right; */
-    margin-left: 75%;
-    margin-bottom: 50%;
+    margin-left: 65%;
+
 }
 
+.bottom{
+    width: 96%;
+    margin-top: 10.5%;
+    text-align: center;
+    animation: 1.5s ease-out 0s 1 slideInFromBottom;
+
+}
+
+.profpic{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 3%;
+        display: unset;
+}
 .Title {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 250%;
-    color: #1F384D
+    font-size: 375%;
+    color: #1F384D;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    transition: 250ms;
+
     
 }
 
 .Title::after{
     content: "!";
     color: #356285;
+
 }
 
 hr {
-    border-top: 5px solid rgb(34, 92, 200);
+    border-top: 7.5px solid rgb(34, 92, 200);
     width: 9%;
     margin-left: 0%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 
 }
-
-.span{
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    color: #1F384D
+.middleleftcontent{
+    animation: 1.5s ease-out 0s 1 slideInFromBottom;
+}
+.text{
+    font-size: 150%;
+    color: #1F384D;
 }
 
 .name{
-    font-size: 130%;
+    font-size: 195%;
     font-weight: bold;
     color: #1F384D
 }
 
 
 .tamu{
+    font-size: 150%;
     font-weight: bold;
     color: rgb(122, 0, 0)
 }
 
 .links{
     font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: bold;
-    color: #1F384D
-    
+    color: #1F384D;
+    transition: 5s;
+
 }
 
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+
+    font-size: 150%;
     color: #1F384D
 
 }
 
 .profpic{
-    border-radius: 50%;
-    border: 2px solid  #356285;
+    border-radius: 75%;
+    width:50%;
+    height:45%;
+    border: 3px solid  #356285;
+    margin-top: 15%;
+    box-shadow: 22.5px 22.5px 10px #356285;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 250ms;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
 ul{
@@ -79,7 +144,7 @@ ul{
 }
 
 .quicklinkheader{
-    font-size: 130%;
+    font-size: 195%;
     font-weight: bold;
     color: #1F384D;
     margin-top: 5%;
@@ -93,14 +158,19 @@ ul{
 .quicklinks{
     background-color: #A4C2DB;
     font-family: 'Poppins', sans-serif;
-    font-size: 120%;
+    font-size: 180%;
     font-weight: bold;
     color: #1F384D;
     border:1px solid #A4C2DB;
     border-radius: 5px;
     padding-bottom: 1%; 
     padding-top: 1%; 
-    padding-right: 1%;     
+    padding-right: 1%; 
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
+ 
 }
 
 .quicklinkpics{
@@ -110,12 +180,35 @@ ul{
     margin-left: 1%;
 }
 
+.morelist{
+    margin-right: 2%;
+    display: inline;
+
+
+
+
+}
+.more{
+    background-color: #356285;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #356285;
+    border-radius: 5px;
+    padding: 1% 1% 1% 1%;     
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+            transition: 1s;
+
+}
 
 .navbar{
     padding-bottom: 6%;
 }
 .navbaritem{
-    font-size: 160%;
+    font-size: 240%;
     font-weight: bold;
     color: #1F384D
 }
@@ -127,5 +220,24 @@ ul{
 .quicklinks:link { text-decoration: none; color: #356285;}
 .quicklinks:hover { text-decoration: none; background-color: #447ca7b0; }
 
+.more:link { text-decoration: none; color: #356285;}
+.more:hover { text-decoration: none; background-color: #2d5a7db0; }
+
 .contactlink:link { text-decoration: none; color: #356285; }
 .contactlink:hover { text-decoration: underline; }
+
+.profpic:hover{transform: translateY(-10px);        box-shadow: 20px 20px 15px #051928;}
+.Title:hover{transform: translateY(-10px);}
+
+@media screen and (max-width: 1322px) {
+    .left {
+      width: 100%;
+      float: left;
+    }
+    .right {
+        width: 100%;
+        margin-left: auto;
+        float: left;
+        margin-bottom: 5%;
+      }
+  }
