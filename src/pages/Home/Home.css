@@ -28,7 +28,6 @@
     }
 }
 
-
 .body { 
     background-color: #f0f4fa;
     margin: 1%;
@@ -37,6 +36,21 @@
     overflow: hidden;
 }
 
+.navbar{
+    padding-bottom: 6%;
+}
+
+.navbaritem{
+    font-size: 240%;
+    font-weight: bold;
+    color: #1F384D
+}
+
+.navbarleft{float:left;}
+
+.navbarright{float:right;}
+
+.navbaritem:link { text-decoration: none; color: #1F384D; }
 
 .left{
     width: 60%;
@@ -46,50 +60,42 @@
 }
 .right{
     margin-left: 65%;
-
 }
 
 .bottom{
     width: 96%;
     margin-top: 10.5%;
     text-align: center;
-    animation: 1.5s ease-out 0s 1 slideInFromBottom;
-
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
 }
 
-.profpic{
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 3%;
-        display: unset;
-}
 .Title {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 375%;
     color: #1F384D;
     animation: 1s ease-out 0s 1 slideInFromLeft;
-    transition: 250ms;
-
-    
+    transition: 250ms;  
 }
 
 .Title::after{
     content: "!";
     color: #356285;
-
 }
+
+.Title:hover{transform: translateY(-10px);}
 
 hr {
     border-top: 7.5px solid rgb(34, 92, 200);
     width: 9%;
     margin-left: 0%;
     animation: 1s ease-out 0s 1 slideInFromLeft;
+}
 
-}
 .middleleftcontent{
-    animation: 1.5s ease-out 0s 1 slideInFromBottom;
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
 }
+
 .text{
     font-size: 150%;
     color: #1F384D;
@@ -114,29 +120,16 @@ hr {
     font-weight: bold;
     color: #1F384D;
     transition: 5s;
-
 }
+
+.contactlink:link { text-decoration: none; color: #356285; }
+
+.contactlink:hover { text-decoration: underline; }
 
 p{
     font-family: 'Poppins', sans-serif;
-
     font-size: 150%;
     color: #1F384D
-
-}
-
-.profpic{
-    border-radius: 75%;
-    width:50%;
-    height:45%;
-    border: 3px solid  #356285;
-    margin-top: 15%;
-    box-shadow: 22.5px 22.5px 10px #356285;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 250ms;
-    animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
 ul{
@@ -150,9 +143,17 @@ ul{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .quicklinklist{
     margin-right: 1%;
     display: inline;
+}
+
+.quicklinkpics{
+    width: 1.9%;
+    height: 1.9%;
+    margin-right: .5%;
+    margin-left: 1%;
 }
 
 .quicklinks{
@@ -170,24 +171,33 @@ ul{
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
     transition: 1s;
- 
 }
 
-.quicklinkpics{
-    width: 1.5%;
-    height: 1.5%;
-    margin-right: .5%;
-    margin-left: 1%;
+.quicklinks:link { text-decoration: none; color: #356285;}
+
+.quicklinks:hover { text-decoration: none; background-color: #447ca7b0; }
+
+.profpic{
+    border-radius: 75%;
+    width:50%;
+    height:45%;
+    border: 3px solid  #356285;
+    margin-top: 15%;
+    box-shadow: 22.5px 22.5px 10px #356285;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 250ms;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 }
+
+.profpic:hover{transform: translateY(-10px); box-shadow: 20px 20px 15px #051928;}
 
 .morelist{
     margin-right: 2%;
     display: inline;
-
-
-
-
 }
+
 .more{
     background-color: #356285;
     font-family: 'Poppins', sans-serif;
@@ -198,36 +208,14 @@ ul{
     border-radius: 5px;
     padding: 1% 1% 1% 1%;     
 	-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-            transition: 1s;
-
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
 }
-
-.navbar{
-    padding-bottom: 6%;
-}
-.navbaritem{
-    font-size: 240%;
-    font-weight: bold;
-    color: #1F384D
-}
-.navbarleft{float:left;}
-.navbarright{float:right;}
-
-.navbaritem:link { text-decoration: none; color: #1F384D; }
-
-.quicklinks:link { text-decoration: none; color: #356285;}
-.quicklinks:hover { text-decoration: none; background-color: #447ca7b0; }
 
 .more:link { text-decoration: none; color: #356285;}
+
 .more:hover { text-decoration: none; background-color: #2d5a7db0; }
-
-.contactlink:link { text-decoration: none; color: #356285; }
-.contactlink:hover { text-decoration: underline; }
-
-.profpic:hover{transform: translateY(-10px);        box-shadow: 20px 20px 15px #051928;}
-.Title:hover{transform: translateY(-10px);}
 
 @media screen and (max-width: 1322px) {
     .left {
@@ -240,4 +228,4 @@ ul{
         float: left;
         margin-bottom: 5%;
       }
-  }
+}

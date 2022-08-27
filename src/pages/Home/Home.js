@@ -1,9 +1,9 @@
 import React from "react";
-import profpic from "../assets/profpic.jpg";
-import linkedinlogo from "../assets/linkedinlogo.png";
-import githublogo from "../assets/githublogo.png";
-import resumelogo from "../assets/resumelogo.png";
-import resume from "../assets/resume.pdf";
+import profpic from "../../assets/profpic.jpg";
+import linkedinlogo from "../../assets/linkedinlogo.png";
+import githublogo from "../../assets/githublogo.png";
+import resumelogo from "../../assets/resumelogo.png";
+import resume from "../../assets/resume.pdf";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
