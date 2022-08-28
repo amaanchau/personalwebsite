@@ -5,7 +5,7 @@ import githublogo from "../../assets/githublogo.png";
 import resumelogo from "../../assets/resumelogo.png";
 import resume from "../../assets/resume.pdf";
 import { Link } from "react-router-dom";
-import "./Home.css";
+import "../App.css";
 
 const Home = () => (
   <>
