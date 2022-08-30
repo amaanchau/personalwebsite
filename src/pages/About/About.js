@@ -9,9 +9,29 @@ const About = () => (
     <div className="bodyabout">
       <div className="navbarabout">
         <span className="navbarleft">
-          <a className="navbaritemabout" href="mailto:amaanchau@tamu.edu?">
-            MENU
-          </a>
+          <div className="dropdownabout">
+            <button className="navbaritemabout">MENU</button>
+            <div class="dropdown-contentabout">
+              <Link className="dropdownabout-contentlinkabout" to="/">
+                Home
+              </Link>
+              <Link className="dropdownabout-contentlinkabout" to="/about">
+                About
+              </Link>
+              <Link className="dropdownabout-contentlinkabout" to="/Portfolio">
+                Portfolio
+              </Link>
+              <Link
+                className="dropdownabout-contentlinkabout"
+                to="/Extracurriculars"
+              >
+                Extracurriculars
+              </Link>
+              <Link className="dropdownabout-contentlinkabout" to="/Experience">
+                Experience
+              </Link>
+            </div>
+          </div>
         </span>
         <span className="navbarright">
           <a className="navbaritemabout" href="mailto:amaanchau@tamu.edu?">

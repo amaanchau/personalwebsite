@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import tamu from "../../assets/tamu.png";
-import coding from "../../assets/coding.png";
 import personalwebsite from "../../assets/personalwebsite.png";
 import "../App.css";
 const Portfolio = () => (
@@ -9,10 +7,31 @@ const Portfolio = () => (
     <div className="bodyport">
       <div className="navbarabout">
         <span className="navbarleft">
-          <a className="navbaritemport" href="mailto:amaanchau@tamu.edu?">
-            MENU
-          </a>
+          <div className="dropdownport">
+            <button className="navbaritemport">MENU</button>
+            <div class="dropdown-contentport">
+              <Link className="dropdownport-contentlinkport" to="/">
+                Home
+              </Link>
+              <Link className="dropdownport-contentlinkport" to="/about">
+                About
+              </Link>
+              <Link className="dropdownport-contentlinkport" to="/Portfolio">
+                Portfolio
+              </Link>
+              <Link
+                className="dropdownport-contentlinkport"
+                to="/Extracurriculars"
+              >
+                Extracurriculars
+              </Link>
+              <Link className="dropdownport-contentlinkport" to="/Experience">
+                Experience
+              </Link>
+            </div>
+          </div>
         </span>
+
         <span className="navbarright">
           <a className="navbaritemport" href="mailto:amaanchau@tamu.edu?">
             CONTACT

@@ -46,8 +46,51 @@
 .navbaritem{
     font-size: 240%;
     font-weight: bold;
-    color: #1F384D
+    color: #1F384D;
+    border: none;
+    background-color: #f0f4fa;
+    transition: 250ms;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0f4fa;
+    min-width: 15%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    z-index: 1;
+    transition: 250ms;
+    border-radius: 7.5%;
+    display:block; 
+    visibility: hidden;
+    opacity: 0 ;
+}
+
+
+  .dropdown-contentlink {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+    color: #385680;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 500ms;  
+
+  }
+
+.dropdown-contentlink:hover{
+    border-radius: 20%;
+    color: #a6c8e2;
+    background-color: #385680;
+    box-shadow: 8px 8px 8px 8px 16px 0px rgba(189, 54, 54, 0.2);
+}
+
+
+.dropdown:hover .dropdown-content {display: block;     visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+   -moz-transition: opacity 500ms ease-in-out;
+   -webkit-transition: opacity 500ms ease-in-out;}
 
 .navbarleft{float:left;}
 
@@ -266,8 +309,50 @@ ul{
 .navbaritemabout{
     font-size: 240%;
     font-weight: bold;
-    color: #19102B
+    color: #19102B;
+    border: none;
+    background-color: #f6f0fa;
+    transition: 250ms;
 }
+
+.dropdown-contentabout {
+    display: none;
+    position: absolute;
+    background-color: #f6f0fa;
+    min-width: 15%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    z-index: 1;
+    transition: 250ms;
+    border-radius: 7.5%;
+    display:block; 
+    visibility: hidden;
+    opacity: 0 ;
+}
+
+
+  .dropdownabout-contentlinkabout {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+    color: #4C3180;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 500ms;  
+
+  }
+
+.dropdownabout-contentlinkabout:hover{
+    border-radius: 20%;
+    color: #f6f0fa;
+    background-color: #4C3180;
+    box-shadow: 8px 8px 8px 8px 16px 0px rgba(189, 54, 54, 0.2);
+}
+
+.dropdownabout:hover .dropdown-contentabout {display: block;     visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+   -moz-transition: opacity 500ms ease-in-out;
+   -webkit-transition: opacity 500ms ease-in-out;}
 
 .navbaritemabout:link { text-decoration: none;  }
 
@@ -501,10 +586,54 @@ ul{
 .navbaritemport{
     font-size: 240%;
     font-weight: bold;
-    color: #3C120B
+    color: #3C120B;
+    border: none;
+    background-color: #eee5e4;
+    transition: 250ms;
 }
 
 .navbaritemport:link { text-decoration: none;  }
+
+
+.dropdown-contentport {
+    display: none;
+    position: absolute;
+    background-color: #eee5e4;
+    min-width: 15%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    z-index: 1;
+    transition: 250ms;
+    border-radius: 7.5%;
+    display:block; 
+    visibility: hidden;
+    opacity: 0 ;
+}
+
+
+  .dropdownport-contentlinkport {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+    color: #c8452e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 500ms;  
+
+  }
+
+.dropdownport-contentlinkport:hover{
+    border-radius: 20%;
+    color: #eee5e4;
+    background-color: #c8452e;
+    box-shadow: 8px 8px 8px 8px 16px 0px rgba(189, 54, 54, 0.2);
+}
+
+.dropdownport:hover .dropdown-contentport {display: block;     visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+   -moz-transition: opacity 500ms ease-in-out;
+   -webkit-transition: opacity 500ms ease-in-out;}
+
 
 .description{
     padding-bottom: 10%;
@@ -721,6 +850,339 @@ ul{
 .moreport2:link { text-decoration: none; color: #ffffff;}
 
 .moreport2:hover { text-decoration: none; background-color: #e09689; }
+
+@media screen and (max-width: 1322px) {
+    .vertlineabout{
+        border-left: 0px;
+    }
+    .leftabout {
+      width: 100%;
+      float: left;     
+      margin-bottom: 5%;
+
+    }
+    .rightabout {
+        width: 100%;
+        margin-left: auto;
+        float: left;
+        margin-bottom: 5%;
+    }
+    .left2about {
+        width: 100%;
+        float: left;
+        margin-bottom: 5%;
+
+    }
+      .right2about {
+          width: 100%;
+          margin-left: auto;
+          float: left;
+          margin-bottom: 5%;
+
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyexp { 
+    background-color: #ebf9eb;
+    margin: 1%;
+    padding: 1% 1% 1% 1%;
+    width : 96%;
+    height: 100%;
+}
+
+.whole{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+}
+.navbarabout{
+    padding-bottom: 12.5%;
+}
+
+.navbaritemexp{
+    font-size: 240%;
+    font-weight: bold;
+    color: #0D340D;
+    border: none;
+    background-color: #ebf9eb;
+    transition: 250ms;
+}
+
+.navbaritemexp:link { text-decoration: none;  }
+
+
+.dropdown-contentexp {
+    display: none;
+    position: absolute;
+    background-color: #ebf9eb;
+    min-width: 15%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    z-index: 1;
+    transition: 250ms;
+    border-radius: 7.5%;
+    display:block; 
+    visibility: hidden;
+    opacity: 0 ;
+}
+
+
+  .dropdownexp-contentlinkexp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+    color: #259225;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 500ms;  
+
+  }
+
+.dropdownexp-contentlinkexp:hover{
+    border-radius: 20%;
+    color: #ebf9eb;
+    background-color: #259225;
+    box-shadow: 8px 8px 8px 8px 16px 0px rgba(189, 54, 54, 0.2);
+}
+
+.dropdownexp:hover .dropdown-contentexp {display: block;     visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+   -moz-transition: opacity 500ms ease-in-out;
+   -webkit-transition: opacity 500ms ease-in-out;}
+
+
+.description{
+    padding-bottom: 10%;
+}
+
+.Titleexp {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 375%;
+    color: #0D340D;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    transition: 250ms;  
+}
+
+.Titleexp::before{
+    content: '//';
+    color: #259225;
+}
+
+.Titleexp:hover{transform: translateY(-10px);}
+
+.textexp{
+    line-height: 1.5em;
+    font-size: 150%;
+    color: #0D340D;
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
+}
+
+.tamuabout{
+    font-size: 105%;
+    font-weight: bold;
+    color: rgb(122, 0, 0)
+}
+
+.boldexp{
+    transition: 250ms;  
+}
+.boldexp:hover{
+    color: #259225;
+}
+
+.hrexp{
+    border-top: 7.5px solid #5fd25f;
+    width: 9%;
+    margin-left: 0%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.scrollexp{
+    font-size: 150%;
+    color: #0D340D;
+    text-align: center;
+    padding-bottom: 40%;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.vertlineexp{
+    border-left: 1px solid #3C120B;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 85%;   
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.container{
+    padding-bottom: 15%;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.sepexp{
+    border-top: 2px solid #259225;
+    width: 85%;
+    margin: 0% 0% 10% 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitleexp{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color: #0D340D;
+    transition: 250ms;  
+}
+
+.subtitleexp::before{
+    content: "//";
+    color: #259225;
+}
+
+.subtitleport:hover{transform: translateY(-10px);}
+
+.logoexp{
+    border: 3px solid  #0D340D;
+    box-shadow: 5px 5px 10px #0D340D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+}
+
+.logoexp:hover{
+    transform: translateY(-15px);   
+    border: 3px solid  #259225;
+    box-shadow: 15px 15px 5px #0D340D;
+}
+
+.logotitleexp{
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 120%;
+    color: #259225;
+    padding-bottom: 5%;
+}
+
+.leftabout{
+    width: 65%;
+    float:left;
+    padding-left: 0%;
+}
+
+.rightabout{
+    margin-left: 70%;
+    padding-top: 3%;
+    height: 100%;
+}
+
+.left2about{
+    width: 30%;
+    float:left;
+    padding-left: 0%;
+    padding-top: 3%;
+}
+
+.right2about{
+    margin-left: 38%;
+}
+
+.bottomport{
+    margin-top: 4%;
+    width: 100%;
+    text-align: left;
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
+}
+
+.footerport{
+    margin-top: 7%;
+    text-align: center;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.linksexp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #0D340D;
+    transition: 5s;
+}
+
+.contactlinkexp:link { text-decoration: none; color: #259225; }
+
+.contactlinkexp:hover { text-decoration: underline; }
+
+.moreul{
+    list-style: none;
+}
+
+.morelist{
+    display: inline;
+}
+
+.moreexp{
+    background-color: #0D340D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    padding: 1%;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #0D340D;
+    border-radius: 5px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
+}
+
+.moreexp:link { text-decoration: none; color: #ffffff;}
+
+.moreexp:hover { text-decoration: none; background-color: #3bc23b; }
+
+.moreul2{
+    list-style: none;
+    padding-left: 0;
+}
+
+.moreexp2{
+    background-color: #0D340D;
+    margin-left: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    padding: 1%;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #0D340D;
+    border-radius: 5px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
+}
+
+.moreexp2:link { text-decoration: none; color: #ffffff;}
+
+.moreexp2:hover { text-decoration: none; background-color: #3bc23b; }
 
 @media screen and (max-width: 1322px) {
     .vertlineabout{

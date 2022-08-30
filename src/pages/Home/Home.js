@@ -12,9 +12,26 @@ const Home = () => (
     <div className="body">
       <div className="navbar">
         <span className="navbarleft">
-          <a className="navbaritem" href="mailto:amaanchau@tamu.edu?">
-            MENU
-          </a>
+          <div className="dropdown">
+            <button className="navbaritem">MENU</button>
+            <div class="dropdown-content">
+              <Link className="dropdown-contentlink" to="/">
+                Home
+              </Link>
+              <Link className="dropdown-contentlink" to="/about">
+                About
+              </Link>
+              <Link className="dropdown-contentlink" to="/Portfolio">
+                Portfolio
+              </Link>
+              <Link className="dropdown-contentlink" to="/Extracurriculars">
+                Extracurriculars
+              </Link>
+              <Link className="dropdown-contentlink" to="/Experience">
+                Experience
+              </Link>
+            </div>
+          </div>
         </span>
         <span className="navbarright">
           <a className="navbaritem" href="mailto:amaanchau@tamu.edu?">
