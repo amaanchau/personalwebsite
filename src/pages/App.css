@@ -1528,6 +1528,19 @@ ul{
 
 .moreext2:hover { text-decoration: none; background-color: #a90000; }
 
+.ccp{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: #5a0606;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    transition: 250ms; 
+    text-decoration: none;
+}
+.ccp:hover{
+    color: #a90000;
+
+}
 @media screen and (max-width: 1322px) {
     .vertlineabout{
         border-left: 0px;

@@ -45,17 +45,29 @@ const Portfolio = () => (
           <hr className="hrport" />
           <div className="summary">
             <span className="textport">
-              My name is Amaan Chaudhry, and I am currently a College Sophomore
-              attending <span className="tamuabout">Texas A&M University</span>.
-              I am greatly interested in
-              <b className="boldport"> web/app development</b>, the{" "}
-              <b className="boldport">cloud</b>, and{" "}
-              <b className="boldport">machine learning. </b>
-              Additionally I always strive to increase my knowledge in the field
-              of computer science and technology as a whole. We are living in a
-              world of technology, and I hope to one day create a lasting impact
-              on the field. <b className="boldport">Learning and leading</b> are
-              what I do best!
+              This year I have plans to create several projects through
+              hackathons, the aggie coding club and at home. My interests are
+              primarily on{" "}
+              <b className="boldext">
+                front-end web development, app development, the cloud, and
+                machine learning
+              </b>
+              . My primary languages and frameworks are{" "}
+              <b className="boldext">
+                {" "}
+                HTML/CSS/JS, Python, React, Java, and C++.{" "}
+              </b>
+              I am also familiar with git/github, microsoft office, cad, and the
+              cloud as I hold an{" "}
+              <a
+                className="ccp"
+                href="https://www.credly.com/badges/c837d3fa-c93b-4375-b34f-3fe623268a8a/linked_in_profile"
+                target="_blank"
+              >
+                {" "}
+                AWS Certified Cloud Practitioner
+              </a>{" "}
+              certification.
             </span>
           </div>
         </div>
