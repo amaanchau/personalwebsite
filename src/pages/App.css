@@ -1059,7 +1059,7 @@ ul{
     color: #259225;
 }
 
-.subtitleport:hover{transform: translateY(-10px);}
+.subtitleexp:hover{transform: translateY(-10px);}
 
 .logoexp{
     border: 3px solid  #0D340D;
@@ -1183,6 +1183,350 @@ ul{
 .moreexp2:link { text-decoration: none; color: #ffffff;}
 
 .moreexp2:hover { text-decoration: none; background-color: #3bc23b; }
+
+@media screen and (max-width: 1322px) {
+    .vertlineabout{
+        border-left: 0px;
+    }
+    .leftabout {
+      width: 100%;
+      float: left;     
+      margin-bottom: 5%;
+
+    }
+    .rightabout {
+        width: 100%;
+        margin-left: auto;
+        float: left;
+        margin-bottom: 5%;
+    }
+    .left2about {
+        width: 100%;
+        float: left;
+        margin-bottom: 5%;
+
+    }
+      .right2about {
+          width: 100%;
+          margin-left: auto;
+          float: left;
+          margin-bottom: 5%;
+
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyext { 
+    background-color: #f9ebeb;
+    margin: 1%;
+    padding: 1% 1% 1% 1%;
+    width : 96%;
+    height: 100%;
+}
+
+.whole{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+}
+.navbarabout{
+    padding-bottom: 12.5%;
+}
+
+.navbaritemext{
+    font-size: 240%;
+    font-weight: bold;
+    color: #5a0606;
+    border: none;
+    background-color: #f9ebeb;
+    transition: 250ms;
+}
+
+.navbaritemext:link { text-decoration: none;  }
+
+
+.dropdown-contentext {
+    display: none;
+    position: absolute;
+    background-color: #f9ebeb;
+    min-width: 15%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    z-index: 1;
+    transition: 250ms;
+    border-radius: 7.5%;
+    display:block; 
+    visibility: hidden;
+    opacity: 0 ;
+}
+
+
+  .dropdownext-contentlinkext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+    color: #a90000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 500ms;  
+
+  }
+
+.dropdownext-contentlinkext:hover{
+    border-radius: 20%;
+    color: #f9ebeb;
+    background-color: #a90000;
+    box-shadow: 8px 8px 8px 8px 16px 0px rgba(189, 54, 54, 0.2);
+}
+
+.dropdownext:hover .dropdown-contentext {display: block;     visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+   -moz-transition: opacity 500ms ease-in-out;
+   -webkit-transition: opacity 500ms ease-in-out;}
+
+
+.description{
+    padding-bottom: 10%;
+}
+
+.Titleext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 375%;
+    color: #5a0606;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    transition: 250ms;  
+}
+
+.Titleext::before{
+    content: '//';
+    color: #a90000;
+}
+
+.Titleext:hover{transform: translateY(-10px);}
+
+.textext{
+    line-height: 1.5em;
+    font-size: 150%;
+    color: #5a0606;
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
+}
+
+.tamuabout{
+    font-size: 105%;
+    font-weight: bold;
+    color: rgb(122, 0, 0)
+}
+
+.boldext{
+    transition: 250ms;  
+}
+.boldext:hover{
+    color: #a90000;
+}
+
+.hrext{
+    border-top: 7.5px solid #a90000;
+    width: 9%;
+    margin-left: 0%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.scrollext{
+    font-size: 150%;
+    color: #5a0606;
+    text-align: center;
+    padding-bottom: 40%;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.vertlineext{
+    border-left: 1px solid #5a0606;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 85%;   
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.container{
+    padding-bottom: 15%;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.sepext{
+    border-top: 2px solid #a90000;
+    width: 85%;
+    margin: 0% 0% 10% 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitleext{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color: #5a0606;
+    transition: 250ms;  
+}
+
+.subtitleext::before{
+    content: "//";
+    color: #a90000;
+}
+
+.subtitleext:hover{transform: translateY(-10px);}
+
+.logoext{
+    border: 3px solid  #5a0606;
+    box-shadow: 5px 5px 10px #5a0606;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+}
+
+.logoext:hover{
+    transform: translateY(-15px);   
+    border: 3px solid  #a90000;
+    box-shadow: 15px 15px 5px #5a0606;
+}
+
+.logotitleext{
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 120%;
+    color: #a90000;
+    padding-bottom: 5%;
+}
+
+.leftabout{
+    width: 65%;
+    float:left;
+    padding-left: 0%;
+}
+
+.rightabout{
+    margin-left: 70%;
+    padding-top: 3%;
+    height: 100%;
+}
+
+.left2about{
+    width: 30%;
+    float:left;
+    padding-left: 0%;
+    padding-top: 3%;
+}
+
+.right2about{
+    margin-left: 38%;
+}
+
+.bottomport{
+    margin-top: 4%;
+    width: 100%;
+    text-align: left;
+    animation: 1.9s ease-out 0s 1 slideInFromBottom;
+}
+
+.footerport{
+    margin-top: 7%;
+    text-align: center;
+    animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.linksext{
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #5a0606;
+    transition: 5s;
+}
+
+.contactlinkext:link { text-decoration: none; color: #a90000; }
+
+.contactlinkext:hover { text-decoration: underline; }
+
+.moreul{
+    list-style: none;
+}
+
+.morelist{
+    display: inline;
+}
+
+.moreext{
+    background-color: #5a0606;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    padding: 1%;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #5a0606;
+    border-radius: 5px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
+}
+
+.moreext:link { text-decoration: none; color: #ffffff;}
+
+.moreext:hover { text-decoration: none; background-color: #a90000; }
+
+.moreul2{
+    list-style: none;
+    padding-left: 0;
+}
+
+.moreext2{
+    background-color: #5a0606;
+    margin-left: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    padding: 1% 45%;
+    font-weight: bold;
+    color: #ffffff;
+    border:1px solid #5a0606;
+    border-radius: 5px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s;
+}
+
+.moreext2:link { text-decoration: none; color: #ffffff;}
+
+.moreext2:hover { text-decoration: none; background-color: #a90000; }
 
 @media screen and (max-width: 1322px) {
     .vertlineabout{
