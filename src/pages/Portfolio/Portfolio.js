@@ -66,16 +66,11 @@ const Portfolio = () => (
           <div className="leftabout">
             <div className="subtitleport">Personal Website</div>
             <span className="textabout">
-              I am a <b className="boldport">Sophomore Computer Engineering</b>{" "}
-              student at <b className="boldport">Texas A&M University</b> with a
-              minor in Mathematics. I currently have a{" "}
-              <b className="boldport">4.0 gpa</b> and in the future I plan to
-              attend graduate school attain a{" "}
-              <b className="boldport">Master of Computer Science </b>
-              degree. Additionally, I have graduated from Clear Falls High
-              School and was ranked 11th of my class of 630 students. I am a{" "}
-              <b className="boldport">lifelong learner</b> and hope to continue
-              growing both academically and personally.
+              - Created and Hosted a personal website containing information
+              about my projects, experience, and organizations <br />- Developed
+              website using React.js, HTML, CSS, JavaScript, and Git
+              <br /> - Hosted website with registered domain name using AWS EC2
+              and Route 53
             </span>
             <nav className="bottomport">
               <ul className="moreul2">

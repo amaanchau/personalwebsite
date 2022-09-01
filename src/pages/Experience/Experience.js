@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
+import resume from "../../assets/resume.pdf";
 import "../App.css";
 const Portfolio = () => (
   <>
@@ -102,6 +103,8 @@ const Portfolio = () => (
             />
           </div>
         </div>
+
+        <iframe src={resume} width="100%" height="600px"></iframe>
 
         <div className="footerport">
           <div className="subtitleexp">Contact Me</div>
