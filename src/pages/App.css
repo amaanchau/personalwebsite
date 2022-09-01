@@ -298,8 +298,8 @@ ul{
 }
 
 .whole{
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 13%;
+    margin-right: 13%;
     height: 100%;
 }
 .navbarabout{
@@ -442,6 +442,8 @@ ul{
 .subtitleabout:hover{transform: translateY(-10px);}
 
 .logoabout{
+    background-color: white;
+
     border: 3px solid  #19102B;
     box-shadow: 5px 5px 10px #19102B;
     display: block;
@@ -575,8 +577,8 @@ ul{
 }
 
 .whole{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
     height: 100%;
 }
 .navbarabout{
@@ -729,6 +731,8 @@ ul{
 .subtitleport:hover{transform: translateY(-10px);}
 
 .logoport{
+    background-color: white;
+
     border: 3px solid  #3C120B;
     box-shadow: 5px 5px 10px #3C120B;
     display: block;
@@ -907,12 +911,15 @@ ul{
     height: 100%;
 }
 .frame{
-    margin-top: 5%;
+    border-top: 5px solid #0D340D;
+    box-shadow: 5px 5px 10px #0D340D;
+
+    margin-top: 10%;
 }
 
 .whole{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
     height: 100%;
 }
 .navbarabout{
@@ -1065,6 +1072,8 @@ ul{
 .subtitleexp:hover{transform: translateY(-10px);}
 
 .logoexp{
+    background-color: white;
+
     border: 3px solid  #0D340D;
     box-shadow: 5px 5px 10px #0D340D;
     display: block;
@@ -1255,8 +1264,8 @@ ul{
 }
 
 .whole{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
     height: 100%;
 }
 .navbarabout{
@@ -1409,6 +1418,7 @@ ul{
 .subtitleext:hover{transform: translateY(-10px);}
 
 .logoext{
+    background-color: white;
     border: 3px solid  #5a0606;
     box-shadow: 5px 5px 10px #5a0606;
     display: block;
