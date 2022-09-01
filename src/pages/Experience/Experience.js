@@ -46,24 +46,20 @@ const Portfolio = () => (
           <hr className="hrexp" />
           <div className="summary">
             <span className="textexp">
-              My name is Amaan Chaudhry, and I am currently a College Sophomore
-              attending <span className="tamuabout">Texas A&M University</span>.
-              I am greatly interested in
-              <b className="boldexp"> web/app development</b>, the{" "}
-              <b className="boldexp">cloud</b>, and{" "}
-              <b className="boldexp">machine learning. </b>
-              Additionally I always strive to increase my knowledge in the field
-              of computer science and technology as a whole. We are living in a
-              world of technology, and I hope to one day create a lasting impact
-              on the field. <b className="boldexp">Learning and leading</b> are
-              what I do best!
+              Here will be information about{" "}
+              <b className="boldexp">Internships and Fellowship </b>
+              experiences. I am always looking for new opportunities to learn
+              and expand my knowledge with. I am a{" "}
+              <b className="boldexp">critical thinker</b> and{" "}
+              <b className="boldexp">hard worker</b>, and I believe I can offer
+              a <b className="boldexp">unique perspective</b> to any problem.
             </span>
           </div>
         </div>
         <p className="scrollexp">SCROLL</p>
         <div className="vertlineexp"></div>
 
-        <div className="container">
+        {/* <div className="container">
           <div className="leftabout">
             <div className="subtitleexp">Internship</div>
             <span className="textabout">
@@ -102,9 +98,14 @@ const Portfolio = () => (
               height={200 * 1.2}
             />
           </div>
-        </div>
+        </div> */}
 
-        <iframe src={resume} width="100%" height="600px"></iframe>
+        <iframe
+          className="frame"
+          src={resume}
+          width="100%"
+          height="600px"
+        ></iframe>
 
         <div className="footerport">
           <div className="subtitleexp">Contact Me</div>
