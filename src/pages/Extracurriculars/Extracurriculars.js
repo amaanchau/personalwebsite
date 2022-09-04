@@ -314,8 +314,8 @@ const Extracurriculars = () => (
           <div className="rightabout">
             <img
               className="logoext"
-              src={cfhs}
-              alt="Clear Falls Logo"
+              src={grad}
+              alt="Graduation Picture"
               width={380}
               height={350}
             />{" "}
@@ -346,8 +346,8 @@ const Extracurriculars = () => (
             <br />
             <img
               className="logoext"
-              src={grad}
-              alt="Graduation Picture"
+              src={cfhs}
+              alt="Clear Falls Logo"
               width={380}
               height={350}
             />

@@ -120,7 +120,7 @@
     font-weight: bold;
     font-size: 375%;
     color: #1F384D;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms;  
 }
 
@@ -135,7 +135,7 @@ hr {
     border-top: 7.5px solid rgb(34, 92, 200);
     width: 9%;
     margin-left: 0%;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
 }
 
 .middleleftcontent{
@@ -219,7 +219,7 @@ ul{
     transition: 1s;
 }
 
-.quicklinks:link { text-decoration: none; color: #356285;}
+.quicklinks:link { text-decoration: none; color: #1F384D;}
 
 .quicklinks:hover { text-decoration: none; background-color: #447ca7b0; }
 
@@ -234,7 +234,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
     transition: 250ms;
-    animation: 1s ease-out 0s 1 slideInFromRight;
+    animation: .7s ease-out 0s 1 slideInFromRight;
 }
 
 .profpic:hover{transform: translateY(-10px); box-shadow: 20px 20px 15px #051928;}
@@ -245,11 +245,12 @@ ul{
 }
 
 .more{
+    color: #ffffff;
+    text-align: unset;
     background-color: #356285;
     font-family: 'Poppins', sans-serif;
     font-size: 150%;
     font-weight: bold;
-    color: #ffffff;
     border:1px solid #356285;
     border-radius: 5px;
     padding: 1% 1% 1% 1%;     
@@ -259,9 +260,212 @@ ul{
     transition: 1s;
 }
 
-.more:link { text-decoration: none; color: #356285;}
+.more:link { text-decoration: none; color: #ffffff;}
 
 .more:hover { text-decoration: none; background-color: #2d5a7db0; }
+
+@media screen and (max-width: 611px) {
+    .navbaritem{
+        font-size: 150%;
+    }
+    button.navbaritemabout{
+        font-size: 150%;
+
+    }
+    a.navbaritemabout{
+        font-size: 150%;
+    }
+    button.navbaritemport{
+        font-size: 150%;
+
+    }
+    span.text{
+       font-size: 120%;
+    }
+    span.name{
+        font-size: 120%;
+     }
+     span.tamu{
+        font-size: 120%;
+     }
+     a.quicklinks{
+        font-size: 120%;
+     }
+    a.contactlink{
+        font-size: 75%;
+     }
+    a.navbaritemport{
+        font-size: 150%;
+    }
+    button.navbaritemexp{
+        font-size: 150%;
+
+    }
+    a.navbaritemexp{
+        font-size: 150%;
+    }
+    button.navbaritemext{
+        font-size: 150%;
+
+    }
+    a.navbaritemext{
+        font-size: 150%;
+    }
+    ul{
+        padding-left: 0;
+    }
+    .name{
+        font-size: 150%;
+    }
+    .Title{
+        margin-top: 2%;
+        font-size: 250%;
+    }
+    .logoabout{
+        width: 75%;
+        height: 75%;
+    }
+    .logoexp{
+        width: 75%;
+        height: 75%;
+    }
+    .logoext{
+        width: 75%;
+        height: 75%;
+    }
+    .logoport{
+        width: 100%;
+        height: 100%;
+    }
+    a.moreport2{
+        font-size: 90%;
+    }
+    a.moreabout{
+        font-size: 100%;
+    }
+    a.moreport{
+        font-size: 100%;
+    }
+    a.moreexp2{
+        font-size: 90%;
+    }
+    a.moreexp{
+        font-size: 100%;
+    }
+    a.moreext2{
+        font-size: 90%;
+    }
+    a.moreext{
+        font-size: 100%;
+    }
+    .quicklinks{
+        padding-right: 3%;
+        text-align: center;
+    }
+    .quicklinkpics{
+        opacity:0 ;
+    }
+    .profpic{
+        margin-bottom: 5%;
+    }
+
+    .more{
+        display: inline-flex;
+        margin-top: 5%;
+        text-align: center;
+    }
+    div.Titleabout{
+        margin-top: 2%;
+        font-size: 250%;
+    }
+    span.textabout{
+        font-size: 100%;
+    }
+    p.scrollabout{
+        margin-top: 100%;
+        margin-bottom: 10%;
+        opacity: 1;
+    }
+    div.Titleport{
+        margin-top: 2%;
+        font-size: 250%;
+    }
+    span.textport{
+        font-size: 100%;
+    }
+    .vertlineport{
+        border-left: 0;
+        opacity: 0;
+    }
+    p.scrollport{
+        margin-top: 100%;
+        margin-bottom: 10%;
+        opacity: 1;
+    }
+    .frame{
+        width: 100%;
+
+    }
+    div.Titleexp{
+        margin-top: 2%;
+        font-size: 250%;
+    }
+    span.textexp{
+        font-size: 100%;
+    }
+    .vertlineexp{
+        border-left: 0;
+        opacity: 0;
+    }
+    p.scrollexp{
+        margin-top: 140%;
+        margin-bottom: 10%;
+        opacity: 1;
+    }
+
+
+    div.Titleext{
+        margin-top: 2%;
+        font-size: 200%;
+    }
+    span.textext{
+        font-size: 100%;
+    }
+    .vertlineext{
+        border-left: 0;
+        opacity: 0;
+    }
+    p.scrollext{
+        margin-top: 80%;
+        margin-bottom: 10%;
+        opacity: 1;
+    }
+
+    div.subtitleabout{
+        font-size: 200%;
+    }
+    a.contactlinkabout{
+        font-size: 75%;
+    }
+    div.subtitleport{
+        font-size: 200%;
+    }
+    a.contactlinkport{
+        font-size: 75%;
+    }
+    div.subtitleexp{
+        font-size: 200%;
+    }
+    a.contactlinkexp{
+        font-size: 75%;
+    }
+    div.subtitleext{
+        font-size: 150%;
+    }
+    a.contactlinkext{
+        font-size: 75%;
+    }
+}
 
 @media screen and (max-width: 1322px) {
     .left {
@@ -277,12 +481,25 @@ ul{
 }
 
 
-@media screen and (max-device-aspect-ratio: 3/2) {
+
+
+@media screen and (device-aspect-ratio: 3/2) {
     .bottom{
         margin-top: 18%;
     }
+
   }
-  
+
+  @media screen and (device-aspect-ratio: 16/9) {
+
+.logoext{
+    width: 70%;
+    height: 70%;
+}
+    
+    
+  }
+
 
 
 
@@ -365,7 +582,7 @@ ul{
     font-weight: bold;
     font-size: 375%;
     color: #19102B;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms;  
 }
 
@@ -400,7 +617,7 @@ ul{
     border-top: 7.5px solid #4C3180;
     width: 9%;
     margin-left: 0%;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
 }
 
 .scrollabout{
@@ -408,7 +625,7 @@ ul{
     color: #19102B;
     text-align: center;
     padding-bottom: 40%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .vertlineabout{
@@ -418,12 +635,12 @@ ul{
     left: 50%;
     margin-left: -3px;
     top: 85%;   
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .container{
     padding-bottom: 15%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .subtitleabout{
@@ -489,7 +706,7 @@ ul{
 
 .footer{
     text-align: center;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .linksabout{
@@ -527,12 +744,21 @@ ul{
     transition: 1s;
 }
 
-.moreabout:link { text-decoration: none; color: #356285;}
+.moreabout:link { text-decoration: none; color: #ffffff;}
 
 .moreabout:hover { text-decoration: none; background-color: #652d7db0; }
 
 @media screen and (max-width: 1322px) {
     .vertlineabout{
+        border-left: 0px;
+    }
+    .vertlineport{
+        border-left: 0px;
+    }
+    .vertlineexp{
+        border-left: 0px;
+    }
+    .vertlineext{
         border-left: 0px;
     }
     .leftabout {
@@ -646,7 +872,7 @@ ul{
     font-weight: bold;
     font-size: 375%;
     color: #3C120B;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms;  
 }
 
@@ -681,7 +907,7 @@ ul{
     border-top: 7.5px solid #c8452e;
     width: 9%;
     margin-left: 0%;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
 }
 
 .scrollport{
@@ -689,7 +915,7 @@ ul{
     color: #3C120B;
     text-align: center;
     padding-bottom: 40%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .vertlineport{
@@ -699,12 +925,12 @@ ul{
     left: 50%;
     margin-left: -3px;
     top: 85%;   
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .container{
     padding-bottom: 15%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .sep{
@@ -763,7 +989,6 @@ ul{
 
 .rightabout{
     margin-left: 70%;
-    padding-top: 3%;
     height: 100%;
 }
 
@@ -771,7 +996,6 @@ ul{
     width: 30%;
     float:left;
     padding-left: 0%;
-    padding-top: 3%;
 }
 
 .right2about{
@@ -788,7 +1012,7 @@ ul{
 .footerport{
     margin-top: 7%;
     text-align: center;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .linksport{
@@ -857,6 +1081,15 @@ ul{
 
 @media screen and (max-width: 1322px) {
     .vertlineabout{
+        border-left: 0px;
+    }
+    .vertlineport{
+        border-left: 0px;
+    }
+    .vertlineexp{
+        border-left: 0px;
+    }
+    .vertlineext{
         border-left: 0px;
     }
     .leftabout {
@@ -987,7 +1220,7 @@ ul{
     font-weight: bold;
     font-size: 375%;
     color: #0D340D;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms;  
 }
 
@@ -1022,7 +1255,7 @@ ul{
     border-top: 7.5px solid #5fd25f;
     width: 9%;
     margin-left: 0%;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
 }
 
 .scrollexp{
@@ -1030,7 +1263,7 @@ ul{
     color: #0D340D;
     text-align: center;
     padding-bottom: 40%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .vertlineexp{
@@ -1040,12 +1273,12 @@ ul{
     left: 50%;
     margin-left: -3px;
     top: 85%;   
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .container{
     padding-bottom: 15%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .sepexp{
@@ -1104,7 +1337,6 @@ ul{
 
 .rightabout{
     margin-left: 70%;
-    padding-top: 3%;
     height: 100%;
 }
 
@@ -1112,7 +1344,6 @@ ul{
     width: 30%;
     float:left;
     padding-left: 0%;
-    padding-top: 3%;
 }
 
 .right2about{
@@ -1129,7 +1360,7 @@ ul{
 .footerport{
     margin-top: 7%;
     text-align: center;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .linksexp{
@@ -1198,6 +1429,15 @@ ul{
 
 @media screen and (max-width: 1322px) {
     .vertlineabout{
+        border-left: 0px;
+    }
+    .vertlineport{
+        border-left: 0px;
+    }
+    .vertlineexp{
+        border-left: 0px;
+    }
+    .vertlineext{
         border-left: 0px;
     }
     .leftabout {
@@ -1333,7 +1573,7 @@ ul{
     font-weight: bold;
     font-size: 375%;
     color: #5a0606;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms;  
 }
 
@@ -1368,7 +1608,7 @@ ul{
     border-top: 7.5px solid #a90000;
     width: 9%;
     margin-left: 0%;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
 }
 
 .scrollext{
@@ -1376,7 +1616,7 @@ ul{
     color: #5a0606;
     text-align: center;
     padding-bottom: 40%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .vertlineext{
@@ -1385,13 +1625,13 @@ ul{
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 85%;   
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    top: 90%;   
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .container{
     padding-bottom: 15%;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .sepext{
@@ -1449,7 +1689,6 @@ ul{
 
 .rightabout{
     margin-left: 70%;
-    padding-top: 3%;
     height: 100%;
 }
 
@@ -1457,7 +1696,6 @@ ul{
     width: 30%;
     float:left;
     padding-left: 0%;
-    padding-top: 3%;
 }
 
 .right2about{
@@ -1474,7 +1712,7 @@ ul{
 .footerport{
     margin-top: 7%;
     text-align: center;
-    animation: 3s ease-out 0s 1 slideInFromBottom;
+    animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
 .linksext{
@@ -1546,7 +1784,7 @@ ul{
     font-weight: bold;
     font-size: 100%;
     color: #5a0606;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: .7s ease-out 0s 1 slideInFromLeft;
     transition: 250ms; 
     text-decoration: none;
 }
@@ -1556,6 +1794,12 @@ ul{
 }
 @media screen and (max-width: 1322px) {
     .vertlineabout{
+        border-left: 0px;
+    }
+    .vertlineexp{
+        border-left: 0px;
+    }
+    .vertlineext{
         border-left: 0px;
     }
     .leftabout {
@@ -1584,3 +1828,5 @@ ul{
 
       }
 }
+
+
