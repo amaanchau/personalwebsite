@@ -6,6 +6,7 @@ import Experience from "./pages/Experience/Experience";
 import Extracurriculars from "./pages/Extracurriculars/Extracurriculars";
 import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from "./components/ScrollToTop.js";
+
 function App() {
   return (
     <Router>

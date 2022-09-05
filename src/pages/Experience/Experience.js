@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
 import resume from "../../assets/resume.pdf";
 import "../App.css";
+import Zoom from "react-reveal/Zoom";
+
 const Portfolio = () => (
   <>
     <div className="bodyexp">
@@ -99,40 +101,43 @@ const Portfolio = () => (
             />
           </div>
         </div> */}
+        <Zoom bottom>
+          <iframe
+            className="frame"
+            src={resume}
+            width="100%"
+            height="600px"
+          ></iframe>
+        </Zoom>
 
-        <iframe
-          className="frame"
-          src={resume}
-          width="100%"
-          height="600px"
-        ></iframe>
+        <Zoom bottom>
+          <div className="footerport">
+            <div className="subtitleexp">Contact Me</div>
 
-        <div className="footerport">
-          <div className="subtitleexp">Contact Me</div>
-
-          <span className="textabout">Email: </span>
-          <span className="linksexp">
-            <a className="contactlinkexp" href="mailto:amaanchau@tamu.edu?">
-              amaanchau@tamu
-            </a>
-          </span>
-          <br />
-          <span className="textabout">Phone: </span>
-          <span className="linksexp">
-            <a className="contactlinkexp" href="tel:2812355003">
-              (281) 235-5003
-            </a>
-          </span>
-          <nav className="bottomabout">
-            <ul className="moreul">
-              <li className="morelist">
-                <a className="moreexp" href="#top">
-                  Back To Top
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+            <span className="textabout">Email: </span>
+            <span className="linksexp">
+              <a className="contactlinkexp" href="mailto:amaanchau@tamu.edu?">
+                amaanchau@tamu
+              </a>
+            </span>
+            <br />
+            <span className="textabout">Phone: </span>
+            <span className="linksexp">
+              <a className="contactlinkexp" href="tel:2812355003">
+                (281) 235-5003
+              </a>
+            </span>
+            <nav className="bottomabout">
+              <ul className="moreul">
+                <li className="morelist">
+                  <a className="moreexp" href="#top">
+                    Back To Top
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </Zoom>
       </div>
     </div>
   </>

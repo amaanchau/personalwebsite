@@ -29,8 +29,13 @@
 }
 .html{
     height: 100%;
+    
+        resize: none;
+    
 }
 .body { 
+    resize: none;
+
     background-color: #f0f4fa;
     margin: 1%;
     padding: 1% 1% 1% 1%;
@@ -129,15 +134,18 @@
     color: #356285;
 }
 
-.Title:hover{transform: translateY(-10px);}
+.Title:hover{color: #3378b1; }
 
 hr {
     border-top: 7.5px solid rgb(34, 92, 200);
     width: 9%;
     margin-left: 0%;
+    transition: 250ms;  
     animation: .7s ease-out 0s 1 slideInFromLeft;
 }
-
+hr:hover{
+    color: #4697da;
+}
 .middleleftcontent{
     animation: 1.9s ease-out 0s 1 slideInFromBottom;
 }
@@ -487,6 +495,9 @@ ul{
     .bottom{
         margin-top: 18%;
     }
+    .profpic{
+        margin-bottom: 58%;
+    }
 
   }
 
@@ -640,7 +651,9 @@ ul{
 
 .container{
     padding-bottom: 15%;
-    animation: 2.2s ease-out 0s 1 slideInFromBottom;
+
+  
+  
 }
 
 .subtitleabout{
@@ -928,10 +941,7 @@ ul{
     animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
-.container{
-    padding-bottom: 15%;
-    animation: 2.2s ease-out 0s 1 slideInFromBottom;
-}
+
 
 .sep{
     border-top: 2px solid #c8452e;
@@ -1276,10 +1286,6 @@ ul{
     animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
-.container{
-    padding-bottom: 15%;
-    animation: 2.2s ease-out 0s 1 slideInFromBottom;
-}
 
 .sepexp{
     border-top: 2px solid #259225;
@@ -1629,10 +1635,6 @@ ul{
     animation: 2.2s ease-out 0s 1 slideInFromBottom;
 }
 
-.container{
-    padding-bottom: 15%;
-    animation: 2.2s ease-out 0s 1 slideInFromBottom;
-}
 
 .sepext{
     border-top: 2px solid #a90000;

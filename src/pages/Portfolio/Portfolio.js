@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
 import "../App.css";
+import Zoom from "react-reveal/Zoom";
+
 const Portfolio = () => (
   <>
     <div className="bodyport">
@@ -73,42 +75,44 @@ const Portfolio = () => (
         </div>
         <p className="scrollport">SCROLL</p>
         <div className="vertlineport"></div>
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleport">Personal Website</div>
+              <span className="textabout">
+                - Created and Hosted a personal website containing information
+                about my projects, experience, and organizations <br />-
+                Developed website using React.js, HTML, CSS, JavaScript, and Git
+                <br /> - Hosted website with registered domain name using AWS
+                EC2 and Route 53
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreport2"
+                      href="https://github.com/amaanchau/personalwebsite"
+                      target={"_blank"}
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitle">August | 2022</div>
+              <img
+                className="logoport"
+                src={personalwebsite}
+                alt="personalwebsite"
+                width={350 * 1.2}
+                height={200 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
 
-        <div className="container">
-          <div className="leftabout">
-            <div className="subtitleport">Personal Website</div>
-            <span className="textabout">
-              - Created and Hosted a personal website containing information
-              about my projects, experience, and organizations <br />- Developed
-              website using React.js, HTML, CSS, JavaScript, and Git
-              <br /> - Hosted website with registered domain name using AWS EC2
-              and Route 53
-            </span>
-            <nav className="bottomport">
-              <ul className="moreul2">
-                <li className="morelist">
-                  <a
-                    className="moreport2"
-                    href="https://github.com/amaanchau/personalwebsite"
-                    target={"_blank"}
-                  >
-                    GitHub
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="rightabout">
-            <div className="logotitle">August | 2022</div>
-            <img
-              className="logoport"
-              src={personalwebsite}
-              alt="personalwebsite"
-              width={350 * 1.2}
-              height={200 * 1.2}
-            />
-          </div>
-        </div>
         {/* <hr className="sep" />
         <div className="container">
           <div className="leftabout">
@@ -192,33 +196,34 @@ const Portfolio = () => (
             />
           </div>
         </div> */}
+        <Zoom bottom>
+          <div className="footerport">
+            <div className="subtitleport">Contact Me</div>
 
-        <div className="footerport">
-          <div className="subtitleport">Contact Me</div>
-
-          <span className="textabout">Email: </span>
-          <span className="linksport">
-            <a className="contactlinkport" href="mailto:amaanchau@tamu.edu?">
-              amaanchau@tamu
-            </a>
-          </span>
-          <br />
-          <span className="textabout">Phone: </span>
-          <span className="linksport">
-            <a className="contactlinkport" href="tel:2812355003">
-              (281) 235-5003
-            </a>
-          </span>
-          <nav className="bottomabout">
-            <ul className="moreul">
-              <li className="morelist">
-                <Link className="moreport" to="/Extracurriculars">
-                  View My Extracurriculars
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+            <span className="textabout">Email: </span>
+            <span className="linksport">
+              <a className="contactlinkport" href="mailto:amaanchau@tamu.edu?">
+                amaanchau@tamu
+              </a>
+            </span>
+            <br />
+            <span className="textabout">Phone: </span>
+            <span className="linksport">
+              <a className="contactlinkport" href="tel:2812355003">
+                (281) 235-5003
+              </a>
+            </span>
+            <nav className="bottomabout">
+              <ul className="moreul">
+                <li className="morelist">
+                  <Link className="moreport" to="/Extracurriculars">
+                    View My Extracurriculars
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </Zoom>
       </div>
     </div>
   </>

@@ -6,6 +6,7 @@ import resumelogo from "../../assets/resumelogo.png";
 import resume from "../../assets/resume.pdf";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Zoom from "react-reveal/Zoom";
 
 const Home = () => (
   <>
@@ -113,6 +114,7 @@ const Home = () => (
       <div className="right">
         <img className="profpic" src={profpic} alt="Profile Picture" />
       </div>
+
       <nav className="bottom">
         <ul>
           <li className="morelist">
