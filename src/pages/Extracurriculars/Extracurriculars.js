@@ -85,12 +85,12 @@ const Extracurriculars = () => (
               <span className="textext">
                 <b className="boldext">Sep 2021 - Present</b>
                 <br />
-                - Participated in a coding project to build a video game in
+                ➡️ Participated in a coding project to build a video game in
                 python
                 <br />
-                - Participated in a project called VisionScan that taught the
+                ➡️ Participated in a project called VisionScan that taught the
                 basics of OpenCV (computer vision software)
-                <br /> - Attended workshops to learn the characteristics of the
+                <br /> ➡️ Attended workshops to learn the characteristics of the
                 computer science industry
               </span>
               <nav className="bottomport">
@@ -134,13 +134,14 @@ const Extracurriculars = () => (
               <div className="subtitleext">TAMU Muslim Student Association</div>
               <span className="textext">
                 <b className="boldext">Aug 2021 - Present</b>
-                <br />- Volunteer at the Islamic Community of Bryan College
-                Station and participate in Project Downtown (provide essential
-                services to the homeless and underserved population) <br />-
-                Present Islam to Muslims and non-Muslims and promote good
-                relations and understanding between them <br />- Conduct
-                religious, social, cultural, and other activities in the best
-                traditions of Islam
+                <br />
+                ➡️ Volunteer at the Islamic Community of Bryan College Station
+                and participate in Project Downtown (provide essential services
+                to the homeless and underserved population) <br />
+                ➡️ Present Islam to Muslims and non-Muslims and promote good
+                relations and understanding between them <br />
+                ➡️ Conduct religious, social, cultural, and other activities in
+                the best traditions of Islam
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -248,23 +249,23 @@ const Extracurriculars = () => (
                   //Robotics Club | Vice President | Aug 2019 - Jun 2021
                 </b>{" "}
                 <br />
-                - Placed 1st in a district robotics competition and competed in
+                ➡️ Placed 1st in a district robotics competition and competed in
                 a state competition <br />
-                - Volunteered at Hyde Elementary School and taught students to
+                ➡️ Volunteered at Hyde Elementary School and taught students to
                 program and build robots <br />
-                - Responsible for maintaining robots
+                ➡️ Responsible for maintaining robots
                 <br />
                 <br />
                 <b className="boldext">
                   //Rockets Club | President | Aug 2020 - Jun 2021
                 </b>{" "}
                 <br />
-                - Participated in the Team American Rocketry Challenge and
-                qualified for nationals in Washington DC <br /> - Brought in
+                ➡️ Participated in the Team American Rocketry Challenge and
+                qualified for nationals in Washington DC <br /> ➡️ Brought in
                 Nasa engineers to share their experiences and give advice to
-                students <br /> - Volunteered at a nearby middle school to teach
-                students the basics of RockSim (rocket simulation software) and
-                the process of prototyping model rockets
+                students <br /> ➡️ Volunteered at a nearby middle school to
+                teach students the basics of RockSim (rocket simulation
+                software) and the process of prototyping model rockets
                 <br />
                 <br />
                 <b className="boldext">
@@ -280,11 +281,11 @@ const Extracurriculars = () => (
                   //Academic Decathlon | Aug 2020 - Jun 2021
                 </b>
                 <br />
-                - One of three members selected for the Honors Academic
+                ➡️ One of three members selected for the Honors Academic
                 Decathlon team. <br />
-                - Placed 7th overall among honor students in district
+                ➡️ Placed 7th overall among honor students in district
                 competition and advanced to state. <br />
-                - Attempted an activity outside my comfort zone and ended up
+                ➡️ Attempted an activity outside my comfort zone and ended up
                 excelling in it.
                 <br />
                 <br />
@@ -292,15 +293,15 @@ const Extracurriculars = () => (
                   //Honor Societies | Aug 2019 - Jun 2021
                 </b>
                 <br />
-                -Member of National Honor Society, National Technical Honor
+                ➡️ Member of National Honor Society, National Technical Honor
                 Society, National Math Honor Society, and Science National Honor
                 Society at Clear Falls Highschool.
-                <br /> -Lead projects for each honor society such as Action for
-                Apes (electronic recycling competition), teacher appreciation
-                week, food bank collection, etc.
-                <br /> -Completed volunteering and tutoring hours for each
+                <br /> ➡️ Lead projects for each honor society such as Action
+                for Apes (electronic recycling competition), teacher
+                appreciation week, food bank collection, etc.
+                <br /> ➡️ Completed volunteering and tutoring hours for each
                 organization.
-                <br /> -Maintained requirements to remain eligible for each
+                <br /> ➡️ Maintained requirements to remain eligible for each
                 honor society.
                 <br />
                 <br />

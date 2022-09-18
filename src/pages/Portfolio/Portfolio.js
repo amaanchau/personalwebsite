@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
+import stock from "../../assets/stock.png";
+
 import "../App.css";
 import Zoom from "react-reveal/Zoom";
 
@@ -75,15 +77,67 @@ const Portfolio = () => (
         </div>
         <p className="scrollport">SCROLL</p>
         <div className="vertlineport"></div>
+
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleport">Stock Predictor Web App</div>
+              <span className="textabout">
+                ➡️ Webscraped stock data from yahoo finance and
+                processed/filtered data to contain only what I needed
+                <br />
+                ➡️ Utilized a Long Short Term Memory Network (LSTM) for building
+                a model to predict the stock prices of any input stock
+                <br /> ➡️ Created graphs and visualized data using matplotlib{" "}
+                <br /> ➡️ Created an interactive python streamlit web
+                application which I used to display my model and findings <br />{" "}
+                ➡️ Deployed stream lit application to the internet using AWS
+                EC2, S3, and Route53
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreport2"
+                      href="https://github.com/amaanchau/stock-predictor-fin"
+                      target={"_blank"}
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      className="moreport2"
+                      href="http://stock-predictor.amaanchau.com"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitle">September | 2022</div>
+              <img
+                className="logoport"
+                src={stock}
+                alt="stock prediction website"
+                width={350 * 1.2}
+                height={200 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
+        <hr className="sep" />
         <Zoom bottom>
           <div className="container">
             <div className="leftabout">
               <div className="subtitleport">Personal Website</div>
               <span className="textabout">
-                - Created and Hosted a personal website containing information
-                about my projects, experience, and organizations <br />-
-                Developed website using React.js, HTML, CSS, JavaScript, and Git
-                <br /> - Hosted website with registered domain name using AWS
+                ➡️ Created and Hosted a personal website containing information
+                about my projects, experience, and organizations <br />
+                ➡️ Developed website using React.js, HTML, CSS, JavaScript, and
+                Git
+                <br /> ➡️ Hosted website with registered domain name using AWS
                 EC2 and Route 53
               </span>
               <nav className="bottomport">
