@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
 import stock from "../../assets/stock.png";
+import groupfly from "../../assets/groupfly.png";
+import aggiebus from "../../assets/aggiebus.png";
+import sling from "../../assets/sling.png";
 
 import "../App.css";
 import Zoom from "react-reveal/Zoom";
@@ -78,6 +81,132 @@ const Portfolio = () => (
         <p className="scrollport">SCROLL</p>
         <div className="vertlineport"></div>
 
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleport">GroupFly</div>
+              <span className="textabout">
+                ➡️ Creating a full stack application to centralize flight
+                booking and planning process for groups
+                <br />
+                ➡️ Web scraped flight ticket data from Amadeus flight offer API
+                <br />
+                ➡️ Developed front end using HTML and CSS tailwind
+                <br /> ➡️ Will Utilize OAuth API for a seamless authentication
+                experience <br /> ➡️ Will develop the backend using JavaScript
+                and Firebase
+                <br /> ➡️ Will deploy the application to the internet using AWS
+                EC2, S3, and Route53
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreport2"
+                      href="https://github.com/8SK3PS8/GroupFly"
+                      target={"_blank"}
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitle">Present | 2022</div>
+              <img
+                className="logoport"
+                src={groupfly}
+                alt="GroupFly website"
+                width={350 * 1.2}
+                height={200 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
+        <hr className="sep" />
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleport">AggieBus.AI</div>
+              <span className="textabout">
+                ➡️ Project member for Aggie Coding Club project AggieBus.AI
+                <br />
+                ➡️ Front end web developer for an application that displays
+                predicted bus stop times and capacity based on several factors.
+                <br />
+                ➡️ Developing front end using React, HTML, CSS, and JS.
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreport2"
+                      href="https://github.com/amaanchau"
+                      target={"_blank"}
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitle">Present | 2022</div>
+              <img
+                className="logoport"
+                src={aggiebus}
+                alt="AggieBus logo"
+                width={350 * 1.2}
+                height={200 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
+        <hr className="sep" />
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleport">Sling Health Project</div>
+              <span className="textabout">
+                ➡️ Project member for Sling Health TAMU
+                <br />
+                ➡️ Software developer on a project with a team of students as a
+                part of a research incubator at Sling Health
+                <br />
+                ➡️ Conducting customer discovery interviews discussing with
+                various medical and public health professionals in the field
+                <br />
+                ➡️ Creating business model canvas, pitch canvas, and other
+                analytical models to present project to potential investors
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreport2"
+                      href="https://www.slinghealthtamu.org/"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitle">Present | 2022</div>
+              <img
+                className="logoport"
+                src={sling}
+                alt="Sling Health TAMU logo"
+                width={350 * 1.2}
+                height={200 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
+        <hr className="sep" />
         <Zoom bottom>
           <div className="container">
             <div className="leftabout">

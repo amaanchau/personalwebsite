@@ -29,13 +29,11 @@
 }
 .html{
     height: 100%;
-    
-        resize: none;
+    resize: none;
     
 }
 .body { 
     resize: none;
-
     background-color: #f0f4fa;
     margin: 1%;
     padding: 1% 1% 1% 1%;

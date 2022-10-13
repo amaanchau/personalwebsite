@@ -4,6 +4,8 @@ import personalwebsite from "../../assets/personalwebsite.png";
 import tamu from "../../assets/tamu.png";
 import coding from "../../assets/coding.png";
 import hobby from "../../assets/hobby.jpg";
+import tamuhack from "../../assets/tamuhack.jpg";
+
 import cfhs from "../../assets/cfhs.png";
 import rocket from "../../assets/rocket.jpg";
 import robotics from "../../assets/robotics.jpg";
@@ -17,6 +19,7 @@ import grad from "../../assets/grad.jpg";
 import helen from "../../assets/helen.jpg";
 import quba from "../../assets/quba.jpg";
 import Zoom from "react-reveal/Zoom";
+import slingsquare from "../../assets/slingsquare.png";
 
 import "../App.css";
 const Extracurriculars = () => (
@@ -91,7 +94,9 @@ const Extracurriculars = () => (
                 ➡️ Participated in a project called VisionScan that taught the
                 basics of OpenCV (computer vision software)
                 <br /> ➡️ Attended workshops to learn the characteristics of the
-                computer science industry
+                computer science industry <br /> ➡️ Utilizing React.js as
+                front-end developer for Aggiebus.ai which displays predicted bus
+                stop times and capacity using ML (Present)
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -118,7 +123,84 @@ const Extracurriculars = () => (
             </div>
           </div>
         </Zoom>
+        <Zoom bottom>
+          <div className="container">
+            <div className="left2about">
+              <img
+                className="logoext"
+                src={slingsquare}
+                alt="Sling Health Logo"
+                width={300}
+                height={350}
+              />
+            </div>
+            <div className="right2about">
+              <div className="subtitleext">Sling Health</div>
+              <span className="textext">
+                <b className="boldext">Sep 2022 - Present</b>
+                <br />
+                ➡️ Software developer on a project with a team of students as a
+                part of a research incubator at Sling Health
+                <br />
+                ➡️ Conducting customer discovery interviews discussing with
+                various medical and public health professionals in the field
+                <br />
+                ➡️ Creating business model canvas, pitch canvas, and other
+                analytical models to present project to potential investors
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreext2"
+                      href="https://www.slinghealthtamu.org/"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </Zoom>
 
+        <Zoom bottom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleext">TAMUhack</div>
+              <span className="textext">
+                <b className="boldext">Sep 2021 - Present</b>
+                <br />
+                ➡️ Participated in HowdyHack 2022
+                <br />
+                ➡️ Planning to attend TAMUHack 2023
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreext2"
+                      href="https://tamuhack.com/th"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <img
+                className="logoext"
+                src={tamuhack}
+                alt="Aggie Coding Club logo"
+                width={350}
+                height={300}
+              />
+            </div>
+          </div>
+        </Zoom>
         <Zoom bottom>
           <div className="container">
             <div className="left2about">
@@ -505,9 +587,9 @@ const Extracurriculars = () => (
             <nav className="bottomabout">
               <ul className="moreul">
                 <li className="morelist">
-                  <a className="moreext" href="#top">
-                    Back To Top
-                  </a>
+                  <Link className="moreext" to="/Experience">
+                    View My Experience
+                  </Link>
                 </li>
               </ul>
             </nav>
