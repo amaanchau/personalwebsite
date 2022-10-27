@@ -134,6 +134,14 @@
 
 .Title:hover{color: #3378b1; }
 
+.name{
+    transition: 250ms;  
+}
+.name:hover{
+    color: #469adf;
+}
+
+
 hr {
     border-top: 7.5px solid rgb(34, 92, 200);
     width: 9%;
@@ -987,6 +995,7 @@ ul{
     font-size: 120%;
     color: #c8452e;
     padding-bottom: 5%;
+    padding-left: 2%;
 }
 
 .leftabout{
@@ -1240,6 +1249,13 @@ ul{
 
 .Titleexp:hover{transform: translateY(-10px);}
 
+.boldexp{
+    transition: 250ms;  
+}
+.boldexp:hover{
+    color: #259225;
+}
+
 .textexp{
     line-height: 1.5em;
     font-size: 150%;
@@ -1332,6 +1348,7 @@ ul{
     font-size: 120%;
     color: #259225;
     padding-bottom: 5%;
+    padding-left: 6%;
 }
 
 .leftabout{

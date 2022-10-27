@@ -53,7 +53,7 @@ const Extracurriculars = () => (
         </span>
 
         <span className="navbarright">
-          <a className="navbaritemext" href="mailto:amaanchau@tamu.edu?">
+          <a className="navbaritemext" href="mailto:amaanchau7@gmail.com?">
             CONTACT
           </a>
         </span>
@@ -83,7 +83,16 @@ const Extracurriculars = () => (
         <div className="vertlineext"></div>
         <Zoom bottom>
           <div className="container">
-            <div className="leftabout">
+            <div className="left2about">
+              <img
+                className="logoext"
+                src={acc}
+                alt="Aggie Coding Club logo"
+                width={350}
+                height={300}
+              />
+            </div>
+            <div className="right2about">
               <div className="subtitleext">Aggie Coding Club</div>
               <span className="textext">
                 <b className="boldext">Sep 2021 - Present</b>
@@ -97,56 +106,6 @@ const Extracurriculars = () => (
                 computer science industry <br /> ➡️ Utilizing React.js as
                 front-end developer for Aggiebus.ai which displays predicted bus
                 stop times and capacity using ML (Present)
-              </span>
-              <nav className="bottomport">
-                <ul className="moreul2">
-                  <li className="morelist">
-                    <a
-                      className="moreext2"
-                      href="https://aggiecodingclub.com/"
-                      target={"_blank"}
-                    >
-                      Website
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="rightabout">
-              <img
-                className="logoext"
-                src={acc}
-                alt="Aggie Coding Club logo"
-                width={350}
-                height={300}
-              />
-            </div>
-          </div>
-        </Zoom>
-        <Zoom bottom>
-          <div className="container">
-            <div className="left2about">
-              <img
-                className="logoext"
-                src={slingsquare}
-                alt="Sling Health Logo"
-                width={300}
-                height={350}
-              />
-            </div>
-            <div className="right2about">
-              <div className="subtitleext">Sling Health</div>
-              <span className="textext">
-                <b className="boldext">Sep 2022 - Present</b>
-                <br />
-                ➡️ Software developer on a project with a team of students as a
-                part of a research incubator at Sling Health
-                <br />
-                ➡️ Conducting customer discovery interviews discussing with
-                various medical and public health professionals in the field
-                <br />
-                ➡️ Creating business model canvas, pitch canvas, and other
-                analytical models to present project to potential investors
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -573,8 +532,8 @@ const Extracurriculars = () => (
 
             <span className="textext">Email: </span>
             <span className="linksext">
-              <a className="contactlinkext" href="mailto:amaanchau@tamu.edu?">
-                amaanchau@tamu
+              <a className="contactlinkext" href="mailto:amaanchau7@gmail.com?">
+                amaanchau7@gmail.com
               </a>
             </span>
             <br />

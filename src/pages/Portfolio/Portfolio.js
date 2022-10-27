@@ -40,7 +40,7 @@ const Portfolio = () => (
         </span>
 
         <span className="navbarright">
-          <a className="navbaritemport" href="mailto:amaanchau@tamu.edu?">
+          <a className="navbaritemport" href="mailto:amaanchau7@gmail.com?">
             CONTACT
           </a>
         </span>
@@ -157,49 +157,6 @@ const Portfolio = () => (
                 className="logoport"
                 src={aggiebus}
                 alt="AggieBus logo"
-                width={350 * 1.2}
-                height={200 * 1.2}
-              />
-            </div>
-          </div>
-        </Zoom>
-        <hr className="sep" />
-        <Zoom bottom>
-          <div className="container">
-            <div className="leftabout">
-              <div className="subtitleport">Sling Health Project</div>
-              <span className="textabout">
-                ➡️ Project member for Sling Health TAMU
-                <br />
-                ➡️ Software developer on a project with a team of students as a
-                part of a research incubator at Sling Health
-                <br />
-                ➡️ Conducting customer discovery interviews discussing with
-                various medical and public health professionals in the field
-                <br />
-                ➡️ Creating business model canvas, pitch canvas, and other
-                analytical models to present project to potential investors
-              </span>
-              <nav className="bottomport">
-                <ul className="moreul2">
-                  <li className="morelist">
-                    <a
-                      className="moreport2"
-                      href="https://www.slinghealthtamu.org/"
-                      target={"_blank"}
-                    >
-                      Website
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="rightabout">
-              <div className="logotitle">Present | 2022</div>
-              <img
-                className="logoport"
-                src={sling}
-                alt="Sling Health TAMU logo"
                 width={350 * 1.2}
                 height={200 * 1.2}
               />
@@ -385,8 +342,11 @@ const Portfolio = () => (
 
             <span className="textabout">Email: </span>
             <span className="linksport">
-              <a className="contactlinkport" href="mailto:amaanchau@tamu.edu?">
-                amaanchau@tamu
+              <a
+                className="contactlinkport"
+                href="mailto:amaanchau7@gmail.com?"
+              >
+                amaanchau7@gmail.com
               </a>
             </span>
             <br />

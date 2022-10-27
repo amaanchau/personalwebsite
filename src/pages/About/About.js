@@ -36,7 +36,7 @@ const About = () => (
           </div>
         </span>
         <span className="navbarright">
-          <a className="navbaritemabout" href="mailto:amaanchau@tamu.edu?">
+          <a className="navbaritemabout" href="mailto:amaanchau7@gmail.com?">
             CONTACT
           </a>
         </span>
@@ -163,8 +163,11 @@ const About = () => (
 
             <span className="textabout">Email: </span>
             <span className="linksabout">
-              <a className="contactlinkabout" href="mailto:amaanchau@tamu.edu?">
-                amaanchau@tamu
+              <a
+                className="contactlinkabout"
+                href="mailto:amaanchau7@gmail.com?"
+              >
+                amaanchau7@gmail.com
               </a>
             </span>
             <br />

@@ -35,7 +35,7 @@ const Home = () => (
           </div>
         </span>
         <span className="navbarright">
-          <a className="navbaritem" href="mailto:amaanchau@tamu.edu?">
+          <a className="navbaritem" href="mailto:amaanchau7@gmail.com?">
             CONTACT
           </a>
         </span>
@@ -51,10 +51,17 @@ const Home = () => (
           <span className="tamu">Texas A&M University</span>
           <span className="text">.</span>
           <br />
+          <span className="text">I'm currently a</span>
+          <span className="name"> software engineering intern </span>
+          <span className="text">at</span>
+          <span className="tamu"> Cicero.ly</span>
+
+          <br />
+          <br />
           <span className="text">Email: </span>
           <span className="links">
-            <a className="contactlink" href="mailto:amaanchau@tamu.edu?">
-              amaanchau@tamu
+            <a className="contactlink" href="mailto:amaanchau7@gmail.com?">
+              amaanchau7@gmail.com
             </a>
           </span>
           <br />

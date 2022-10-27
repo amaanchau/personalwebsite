@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
 import resume from "../../assets/resume.pdf";
+import cicero from "../../assets/cicero.png";
+
 import "../App.css";
 import Zoom from "react-reveal/Zoom";
 
@@ -36,7 +38,7 @@ const Portfolio = () => (
         </span>
 
         <span className="navbarright">
-          <a className="navbaritemexp" href="mailto:amaanchau@tamu.edu?">
+          <a className="navbaritemexp" href="mailto:amaanchau7@gmail.com?">
             CONTACT
           </a>
         </span>
@@ -48,7 +50,7 @@ const Portfolio = () => (
           <hr className="hrexp" />
           <div className="summary">
             <span className="textexp">
-              Here will be information about{" "}
+              Here will be my information about{" "}
               <b className="boldexp">Internships and Fellowship </b>
               experiences. I am always looking for new opportunities to learn
               and expand my knowledge with. I am a{" "}
@@ -61,46 +63,46 @@ const Portfolio = () => (
         <p className="scrollexp">SCROLL</p>
         <div className="vertlineexp"></div>
 
-        {/* <div className="container">
-          <div className="leftabout">
-            <div className="subtitleexp">Internship</div>
-            <span className="textabout">
-              I am a <b className="boldexp">Sophomore Computer Engineering</b>{" "}
-              student at <b className="boldexp">Texas A&M University</b> with a
-              minor in Mathematics. I currently have a{" "}
-              <b className="boldexp">4.0 gpa</b> and in the future I plan to
-              attend graduate school attain a{" "}
-              <b className="boldexp">Master of Computer Science </b>
-              degree. Additionally, I have graduated from Clear Falls High
-              School and was ranked 11th of my class of 630 students. I am a{" "}
-              <b className="boldexp">lifelong learner</b> and hope to continue
-              growing both academically and personally.
-            </span>
-            <nav className="bottomport">
-              <ul className="moreul2">
-                <li className="morelist">
-                  <a
-                    className="moreexp2"
-                    href="https://github.com/amaanchau/personalwebsite"
-                    target={"_blank"}
-                  >
-                    Website
-                  </a>
-                </li>
-              </ul>
-            </nav>
+        <Zoom>
+          <div className="container">
+            <div className="leftabout">
+              <div className="subtitleexp">Cicero</div>{" "}
+              <span className="textabout">
+                <b className="boldexp">Software Engineering Intern</b>
+                <br></br>Converting the app.cicero.ly web application into a
+                cross-platform mobile app using Apache Cordova and Ionic
+                framework. Additionally, I am learning JavaScript, Node.js,
+                React & MUI, React-Redux, MongoDB, Mongoose, and Python
+                technologies in the process.
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreexp2"
+                      href="https://www.cicero.ly/"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitleexp">Present | 2022</div>
+              <img
+                className="logoexp"
+                src={cicero}
+                alt="personalwebsite"
+                width={320 * 1.2}
+                height={180 * 1.2}
+              />
+            </div>
           </div>
-          <div className="rightabout">
-            <div className="logotitleexp">August | 2022</div>
-            <img
-              className="logoexp"
-              src={personalwebsite}
-              alt="personalwebsite"
-              width={350 * 1.2}
-              height={200 * 1.2}
-            />
-          </div>
-        </div> */}
+        </Zoom>
+        <hr className="sepexp" />
+
         <Zoom bottom>
           <iframe
             className="frame"
@@ -116,8 +118,8 @@ const Portfolio = () => (
 
             <span className="textabout">Email: </span>
             <span className="linksexp">
-              <a className="contactlinkexp" href="mailto:amaanchau@tamu.edu?">
-                amaanchau@tamu
+              <a className="contactlinkexp" href="mailto:amaanchau7@gmail.com?">
+                amaanchau7@gmail.com
               </a>
             </span>
             <br />
