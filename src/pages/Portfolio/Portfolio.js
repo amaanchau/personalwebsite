@@ -52,29 +52,15 @@ const Portfolio = () => (
           <hr className="hrport" />
           <div className="summary">
             <span className="textport">
-              This year I have plans to create several projects through
-              hackathons, the aggie coding club and at home. My interests are
-              primarily on{" "}
-              <b className="boldext">
-                front-end web development, app development, the cloud, and
-                machine learning
-              </b>
-              . My primary languages and frameworks are{" "}
-              <b className="boldext">
-                {" "}
-                HTML/CSS/JS, Python, React, Java, and C++.{" "}
-              </b>
-              I am also familiar with git/github, microsoft office, cad, and the
-              cloud as I hold an{" "}
-              <a
+
+            As a Computer Engineering student at Texas A&M University, I have a strong <b className="boldext"> coding  </b> background with proficiency in Python, Java, and C++. In addition, I possess skills in  <b className="boldext">web development </b>, including React.js, HTML, CSS, and JavaScript. I have hands-on experience with <b className="boldext"> cloud technologies </b>, specifically AWS, and I am an <a
                 className="ccp"
                 href="https://www.credly.com/badges/c837d3fa-c93b-4375-b34f-3fe623268a8a/linked_in_profile"
                 target="_blank"
               >
                 {" "}
                 AWS Certified Cloud Practitioner
-              </a>{" "}
-              certification.
+              </a>. Furthermore, I am well-versed in <b className="boldext"> version control systems </b> like Git, GitHub, and GitLab. My passion for projects and commitment to continuous learning drive me to excel in the field of coding.
             </span>
           </div>
         </div>

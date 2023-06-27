@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import personalwebsite from "../../assets/personalwebsite.png";
 import resume from "../../assets/resume.pdf";
 import cicero from "../../assets/cicero.png";
+import usaa from "../../assets/USAA.png";
 
 import "../App.css";
 import Zoom from "react-reveal/Zoom";
@@ -66,14 +67,47 @@ const Portfolio = () => (
         <Zoom>
           <div className="container">
             <div className="leftabout">
+              <div className="subtitleexp">USAA</div>{" "}
+              <span className="textabout">
+                <b className="boldexp">Software Engineering Intern</b>
+                <br></br>
+                As a Software Engineer Intern at USAA, I supported and developed a robust data pipeline for transferring large-scale raw data into S3 buckets. By implementing Terraform Rover, a visualization tool, I streamlined the review process of Terraform plans, saving significant time. This experience expanded my knowledge in Terraform, cloud technologies, and AWS. I conducted thorough testing and debugging to ensure the pipeline's functionality and quality. Additionally, I prepared progress reports and presentations for effective communication with the team and management.
+              </span>
+              <nav className="bottomport">
+                <ul className="moreul2">
+                  <li className="morelist">
+                    <a
+                      className="moreexp2"
+                      href="https://www.usaa.com/"
+                      target={"_blank"}
+                    >
+                      Website
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="rightabout">
+              <div className="logotitleexp">May 2023 | August 2023 </div>
+              <img
+                className="logoexp"
+                src={usaa}
+                alt="personalwebsite"
+                width={320 * 1.2}
+                height={180 * 1.2}
+              />
+            </div>
+          </div>
+        </Zoom>
+        <hr className="sepexp" />
+
+        <Zoom>
+          <div className="container">
+            <div className="leftabout">
               <div className="subtitleexp">Cicero</div>{" "}
               <span className="textabout">
                 <b className="boldexp">Software Engineering Intern</b>
-                <br></br>Converting the app.cicero.ly web application into a
-                cross-platform mobile app using Apache Cordova and Ionic
-                framework. Additionally, I am learning JavaScript, Node.js,
-                React & MUI, React-Redux, MongoDB, Mongoose, and Python
-                technologies in the process.
+                <br></br>During my internship at Cicero.ly, I led the migration of the React app to the Remix framework, optimizing loading times and performance. I also converted the Cicero web app into a cross-platform mobile app using the Capacitor framework. Streamlining the onboarding process, I enhanced efficiency and user experience while resolving UI bugs. These experiences enriched my skills in React and front-end development, deepening my passion for creating intuitive user experiences.
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -90,7 +124,7 @@ const Portfolio = () => (
               </nav>
             </div>
             <div className="rightabout">
-              <div className="logotitleexp">Present | 2022</div>
+              <div className="logotitleexp"> Oct 2022 | May 2023 </div>
               <img
                 className="logoexp"
                 src={cicero}
@@ -102,6 +136,10 @@ const Portfolio = () => (
           </div>
         </Zoom>
         <hr className="sepexp" />
+
+
+
+
 
         <Zoom bottom>
           <iframe
