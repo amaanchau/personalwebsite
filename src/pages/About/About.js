@@ -47,21 +47,7 @@ const About = () => (
           <div className="Titleabout">About Me</div>
           <hr className="hrabout" />
           <div className="summary">
-            <span className="textabout">
-              My name is Amaan Chaudhry, and I am currently a College Sophomore
-              attending <span className="tamuabout">Texas A&M University</span>.
-              I am greatly interested in
-              <b className="boldabout"> web/app development</b>, the{" "}
-              <b className="boldabout">cloud</b>, and{" "}
-              <b className="boldabout">machine learning. </b>
-              Additionally I always strive to increase my knowledge in the field
-              of computer science and technology as a whole. We are living in a
-              world of technology, and I hope to one day create a lasting impact
-              on the field. <b className="boldabout">
-                Learning and leading
-              </b>{" "}
-              are what I do best!
-            </span>
+          <span className="textabout"> I am a{" "} <b className="boldabout">Senior Computer Engineering</b>{" "} student at <b className="tamuabout">Texas A&M University</b>{" "} in a fast-track program, currently taking{" "} <b className="boldabout">master-level courses</b>. I am passionate about{" "} <b className="boldabout">software development</b>,{" "} <b className="boldabout">cloud computing and AWS</b>,{" "} <b className="boldabout">AI/machine learning</b>, and{" "} <b className="boldabout">UI/front-end development</b>. I always strive to increase my knowledge in{" "} <b className="boldabout">computer science</b> and{" "} <b className="boldabout">technology</b> as a whole. We are living in a{" "} <b className="boldabout">world of technology</b>, and I hope to one day{" "} <b className="boldabout">create a lasting impact</b> on the field.{" "} <b className="boldabout">Learning</b> and <b className="boldabout">leading</b>{" "} are what I do best! </span>
           </div>
         </div>
         <p className="scrollabout">SCROLL</p>
@@ -70,20 +56,8 @@ const About = () => (
           <div className="container">
             <div className="leftabout">
               <div className="subtitleabout">Education</div>
-              <span className="textabout">
-                I am a{" "}
-                <b className="boldabout">Sophomore Computer Engineering</b>{" "}
-                student at <b className="boldabout">Texas A&M University</b>{" "}
-                with a minor in Mathematics. I currently have a{" "}
-                <b className="boldabout">4.0 GPA</b> and in the future I plan to
-                attend graduate school attain a{" "}
-                <b className="boldabout">Master of Computer Science </b>
-                degree. Additionally, I have graduated from Clear Falls High
-                School and was ranked 11th of my class of 630 students. I am a{" "}
-                <b className="boldabout">lifelong learner</b> and hope to
-                continue growing both academically and personally.
-              </span>
-            </div>
+              <span className="textabout"> I am a <b className="boldabout">senior Computer Engineering</b> student at <b className="boldabout">Texas A&M University</b> with a minor in Mathematics, currently taking <b className="boldabout">master-level courses</b> in Computer Science. I have a <b className="boldabout">3.8 GPA</b> and plan to earn a <b className="boldabout">Master of Computer Science</b> degree. I am honored to have received the <b className="boldabout">Dean's Honor Award</b> for outstanding academic excellence. My coursework includes Program Design, Data Structures & Algorithms, Discrete Math, Computer Architecture, Computer Systems, Software Engineering, Microcomputer Systems, Database Systems, Machine Learning, Statistics, Software Security, and Cybersecurity. I am passionate about continuing to grow academically and professionally to make a meaningful impact in technology. </span>
+              </div>
             <div className="rightabout">
               <img
                 className="logoabout"
@@ -108,21 +82,7 @@ const About = () => (
             </div>
             <div className="right2about">
               <div className="subtitleabout">Coding</div>
-              <span className="textabout">
-                My coding journey started in junior year of{" "}
-                <b className="boldabout">high school</b> when I took my first
-                computer science class. I fell in love immediately as the
-                subject always posed considerable challenges to me, but when I
-                overcame them, I experienced a feeling of{" "}
-                <b className="boldabout">satisfaction</b> unrivaled to anything
-                I've experienced before. I took multiple other comp sci classes
-                in high school which have lead me to pursuing{" "}
-                <b className="boldabout">computer engineering</b>. Through these
-                classes and other outside learning I have learned many{" "}
-                <b className="boldabout">
-                  languages, frameworks, and tools of the internet.
-                </b>
-              </span>
+              <span className="textabout"> My coding journey started in junior year of <b className="boldabout">high school</b> when I took my first computer science class. I fell in love immediately as the subject always posed considerable challenges, but overcoming them gave me a sense of <b className="boldabout">satisfaction</b> like no other. This passion led me to pursue <b className="boldabout">computer engineering</b>. Over the years, I have gained significant professional experience through internships and collaborations with companies such as <b className="boldabout">A&M Research</b>, <b className="boldabout">Cicero</b>, <b className="boldabout">USAA</b>, and <b className="boldabout">State Farm</b>. Through these opportunities and continuous learning, I have developed expertise in many <b className="boldabout">languages, frameworks, and tools</b>, further fueling my passion for technology and innovation. </span>
             </div>
           </div>
         </Zoom>

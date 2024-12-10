@@ -54,7 +54,7 @@ const Home = () => (
           <span className="text">I'm currently a</span>
           <span className="name"> software engineering intern </span>
           <span className="text">at</span>
-          <span className="tamu"> USAA</span>
+          <span className="tamu"> State Farm</span>
 
           <br />
           <br />

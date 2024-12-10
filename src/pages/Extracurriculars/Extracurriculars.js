@@ -95,7 +95,7 @@ const Extracurriculars = () => (
             <div className="right2about">
               <div className="subtitleext">Aggie Coding Club</div>
               <span className="textext">
-                <b className="boldext">Sep 2021 - Present</b>
+                <b className="boldext">Sep 2021 - Dec 2021</b>
                 <br />
                 ➡️ Participated in a coding project to build a video game in
                 python
@@ -105,7 +105,7 @@ const Extracurriculars = () => (
                 <br /> ➡️ Attended workshops to learn the characteristics of the
                 computer science industry <br /> ➡️ Utilizing React.js as
                 front-end developer for Aggiebus.ai which displays predicted bus
-                stop times and capacity using ML (Present)
+                stop times and capacity using ML
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -129,11 +129,11 @@ const Extracurriculars = () => (
             <div className="leftabout">
               <div className="subtitleext">TAMUhack</div>
               <span className="textext">
-                <b className="boldext">Sep 2021 - Present</b>
+                <b className="boldext">Sep 2021 - Sep 2023</b>
                 <br />
-                ➡️ Participated in HowdyHack 2022
+                ➡️ Participated in HowdyHack 2022, 2023
                 <br />
-                ➡️ Planning to attend TAMUHack 2023
+                ➡️ Participated in TAMUHack 2023
               </span>
               <nav className="bottomport">
                 <ul className="moreul2">
@@ -176,6 +176,7 @@ const Extracurriculars = () => (
               <span className="textext">
                 <b className="boldext">Aug 2021 - Present</b>
                 <br />
+                ➡️ Contributed to planning and organizing large scale events as an intern for the MSA <br />                
                 ➡️ Volunteer at the Islamic Community of Bryan College Station
                 and participate in Project Downtown (provide essential services
                 to the homeless and underserved population) <br />
